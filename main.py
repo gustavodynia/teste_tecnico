@@ -10,7 +10,7 @@ lista = [0, 1, 1]
 if numero == 0 or numero == 1:
     print(f'{numero} faz parte da sequência de Fibonacci.')
 else:
-    while len(lista) < 20:
+    while len(lista) < 20 + numero:
         t1 = lista[-1]
         t2 = lista[-2]
         t3 = t1 + t2
